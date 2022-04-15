@@ -1,0 +1,11 @@
+
+
+*{
+    --primary-color: black;
+    --menu-color:#0087ca;
+    --menu-color-light:#0087ca80;
+    --menu-color-dark:#535b89;
+
+    color:black;
+    font-family:'Times New Roman', Times, serif;
+}
