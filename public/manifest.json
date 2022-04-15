@@ -1,0 +1,15 @@
+{
+  "short_name": "Indo German",
+  "name": "Create React App Sample",
+  "icons": [
+    {
+      "src": "logo300x300.png",
+      "type": "image/png",
+      "sizes": "300x300"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
