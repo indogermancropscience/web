@@ -1,0 +1,98 @@
+.product-bg-section {
+    position: relative;
+    z-index: -1;
+}
+
+.product-bg {
+
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.bg-1 {
+    background-image: url('/assets/products-page/1.jpg');
+}
+
+.p-p-blue-layer {
+    background-color: rgba(16, 42, 131, 0.6);
+}
+
+.bg-2 {
+    background-image: url('/assets/products-page/2.jpg');
+}
+
+.p-p-yellow-layer {
+    background: rgba(240, 124, 0, 0.5);
+
+}
+
+.bg-3 {
+    background-image: url('/assets/products-page/3.jpg');
+}
+
+.p-p-green-layer {
+    background: rgba(0, 163, 44, 0.5);
+
+}
+
+.bg-4 {
+    background-image: url('/assets/products-page/4.jpg');
+}
+
+.p-p-red-layer {
+    background: rgba(227, 0, 22, 0.5);
+
+}
+
+.bg-5 {
+    background-image: url('/assets/products-page/5.jpg');
+}
+
+.p-p-vadadi-layer {
+    background: rgba(0, 158, 224, 0.6);
+
+}
+
+.bg-6 {
+    background-image: url('/assets/products-page/6.jpg');
+}
+
+.p-p-perpel-layer {
+    background: rgba(151, 71, 255, 0.6);
+
+}
+
+.product-banner {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.image-titel {
+    color: #fff !important;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1300px;
+    /* padding-left: 20px; */
+}
+
+.image-titel h1 {
+    font-family: "Headland One", serif;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 100.2px;
+    text-align: center;
+    color: #fff;
+}
+
+@media (max-width:400px) {
+    .image-titel h1{
+        font-size: 50px;
+    }
+}

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indo German</title>
+    <!-- Link contact CSS -->
+    <link rel="stylesheet" href="/css/contact.css" />
+
+    <!-- Demo styles -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Link Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <!-- hilighi link -->
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- navbar section -->
+    <div class="navbar">
+        <div class="container">
+            <div class="navbar-outter">
+                <div class="navbar-left-inner">
+                    <div class="navbar-logo">
+                        <a href="/index.html"><img src="/assets/navbar/Logo.svg" alt="company-logo"></a>
+                    </div>
+                </div>
+                <div class="navbar-right-inner">
+                    <div class="navbar-list" id="mySidenav">
+                        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+                        <ul>
+                            <li><a href="/index.html">HOME</a></li>
+                            <li><a href="/about.html">About Us</a></li>
+                            <li><a href="/products.html">Products</a></li>
+                            <li><a href="/contact-us.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <i class="bi bi-list" onclick="openNav()"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- contacto bg section -->
+    <div class="contact-bg-page-section">
+        <div class="contact-bg-page">
+            <div class="container">
+                <div class="contact-bg-page-content">
+                    <div class="contact-bg-page-titel">
+                        <h1>We Are Always
+                            With You :)</h1>
+                    </div>
+                    <div class="contact-bg-page-detail">
+                        <p>Growing Dreams, Harvesting Success</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact detail -->
+    <div class="contact-page-detail-section">
+        <div class="container">
+            <div class="contact-page-detail-main">
+                <div class="contact-page-detail-outter">
+                    <div class="contact-page-detail-inner">
+                        <div class="contact-page-detail-image address">
+                            <div class="contact-page-detail-titel">
+                                <h1>ADDRESS</h1>
+                            </div>  
+                            <div class="contact-page-detail-descripetion">
+                                <a href="https://maps.app.goo.gl/hmuHVNeabpi6J4as6" target="_blank">C1B 501, Kerala G.I.D.C., Post. Kerala, Tal.Bavala, Dist. Ahmedabad - 382220</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-page-detail-outter">
+                    <div class="contact-page-detail-inner">
+                        <div class="contact-page-detail-image phone">
+                            <div class="contact-page-detail-titel">
+                                <h1>PHONE</h1>
+                            </div>
+                            <div class="contact-page-detail-descripetion">
+                                <a href="tel:+919426251195">+91 94262 51195</a>
+                                <a href="tel:+919687600155"> +91 96876 00155</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-page-detail-outter">
+                    <div class="contact-page-detail-inner">
+                        <div class="contact-page-detail-image email">
+                            <div class="contact-page-detail-titel">
+                                <h1>E-MAIL</h1>
+                            </div>
+                            <div class="contact-page-detail-descripetion">
+                                <a href="mailto:indogeraman_crop@yahoo.com">indogeraman_crop@yahoo.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- contect us -->
+    <div class="contact-section">
+        <div class="container">
+            <div class="contect-outter">
+                <div class="contect-left-inner">
+                    <div class="content-titel">
+                        <h3>Drop a message</h3>
+                    </div>
+                    <form method="POST" class="php-email-form" action="mailto:indogeraman_crop@yahoo.com"
+                        enctype="text/plain">
+                        <div class="row">
+                            <div class="col form-group">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                                    required>
+                            </div>
+                            <div class="col form-group">
+                                <input type="text" class="form-control" name="phone" id="phone"
+                                    placeholder="Phone Number" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col form-group">
+                                <input type="text" name="email" class="form-control" id="email" placeholder="Your Email"
+                                    required>
+                            </div>
+                            <div class="col form-group">
+                                <input type="text" class="form-control" name="city" id="city" placeholder="City"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" name="message" rows="5" placeholder="Message"
+                                aria-invalid="false" required></textarea>
+                        </div>
+                        <div class="contect-btn"><button type="submit" id="btn">Send Message</button></div>
+                    </form>
+                </div>
+                <div class="contect-right-inner">
+
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11798.891725259129!2d72.32772126397438!3d22.770099237379302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e956e02f03671%3A0x8953603bae3c6770!2sINDO%20GERMAN%20CROP%20SCIENCE!5e0!3m2!1sen!2sin!4v1714556846710!5m2!1sen!2sin"
+                        width="420" height="410" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-outter">
+                    <div class="footer-inner">
+                        <div class="footer-company-logo">
+                            <img src="/assets/navbar/Logo.svg" alt="company-logo">
+                        </div>
+                        <div class="footer-company-detail">
+                            <p>INDO GERMAN CROP SCIENCE is a reputed name in the field of Organic Farm Chemicals since
+                                2005.
+                                Our company INDO GERMAN
+                                CROP SCIENCE is established by visionary, young and dynamic entrepreneurs MR. BHARAT
+                                BODAR
+                                (Director).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-outter">
+                    <div class="footer-inner">
+                        <div class="footer-center-image">
+                            <img src="/assets/footer/footer-image.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-outter">
+                    <div class="footer-inner">
+                        <div class="footer-contactus">
+                            <h3>Contact Us</h3>
+                        </div>
+                        <div class="footer-contact-content">
+                            <div class="footer-contect-icon">
+                                <img src="/assets/footer/mail-inbox-app.svg" alt="">
+                            </div>
+                            <div class="footer-cotect-detail">
+                                <a href="mailto:indogeraman_crop@yahoo.com">
+                                    indogeraman_crop@yahoo.com
+                                </a>
+                            </div>
+                        </div>
+                        <div class="footer-contact-content">
+                            <div class="footer-contect-icon">
+                                <img src="/assets/footer/gps.svg" alt="">
+                            </div>
+                            <div class="footer-cotect-detail">
+                                <a href="https://maps.app.goo.gl/hmuHVNeabpi6J4as6" target="_blank">
+                                    C1B 501, Kerala G.I.D.C., Post. Kerala,
+                                    Tal. Bavala, Dist. Ahmedabad - 382220
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>

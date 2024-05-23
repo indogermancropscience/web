@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Headland+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1340px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.product-item-section {
+    padding: 30px 0 50px;
+}
+
+.product-item-titel h2 {
+    font-family: "Headland One", serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 62.62px;
+    text-align: center;
+    color: #2C2C69;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.product-item-content-main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.justify-c-c{
+    justify-content: center;
+}
+
+.product-item-content-outter {
+    width: 25%;
+    padding: 12.5px 10px ;
+}
+
+.product-item-content-inner {
+    max-width: 310px;
+    text-align: center;
+}
+
+.product-item-image{
+    max-width: 310px;
+}
+
+.product-item-image img{
+    width: 100%;
+}
+
+.product-item-name h2 {
+    padding-top: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    text-transform: uppercase;
+}
+
+@media (max-width:1150px) {
+    .product-item-content-outter {
+        width: 50%;
+    }
+    .product-item-content-inner {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:700px) {
+    .product-item-content-outter {
+        width: 100%;
+    }
+    .product-item-titel h2{
+        font-size: 46px;
+    }
+}
