@@ -1,0 +1,169 @@
+.contact-bg-page {
+    background-image: url('/assets/contact-page/contact-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.contact-bg-page-content {
+    color: #fff !important;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 799px;
+    text-transform: uppercase;
+    /* padding-left: 20px; */
+}
+
+.contact-bg-page-titel h1 {
+    font-family: "Headland One", serif;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 87.67px;
+    text-align: left;
+    color: #fff;
+}
+
+.contact-bg-page-detail p {
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 60px;
+    text-align: left;
+
+}
+
+@media (max-width:700px) {
+    .contact-bg-page-titel h1 {
+        font-size: 50px;
+        line-height: 55px;
+    }
+    
+    .contact-bg-page-detail p {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+.contact-page-detail-section {
+    padding: 50px 0;
+}
+
+.contact-page-detail-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-page-detail-outter {
+    width: 33.33%;
+    padding: 10px;
+}
+
+.contact-page-detail-image {
+    border-radius: 0 60px 0 60px;
+    width: 100%;
+    max-width: 420px;
+    min-height: 300px;
+}
+
+.address {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(16, 42, 131, 0.5)), url('/assets/contact-page/address-image.png') center;
+    background-size: cover;
+}
+
+.phone {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(16, 42, 131, 0.5)), url('/assets/contact-page/phone-image.png') center;
+    background-size: cover;
+}
+
+.email {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(16, 42, 131, 0.5)), url('/assets/contact-page/emailimage.png') center;
+    background-size: cover;
+}
+
+.contact-page-detail-outter:hover .contact-page-detail-descripetion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 100%; */
+    min-height: 300px;
+    animation: fadeIn 1s;
+}
+
+.contact-page-detail-outter:hover .contact-page-detail-descripetion a{
+    display: block;
+    /* animation: fadeIn 1s; */
+}
+
+.contact-page-detail-outter:hover .contact-page-detail-titel {
+    display: none;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.contact-page-detail-titel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+}
+
+
+.contact-page-detail-titel h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #fff;
+    padding-left: 20px;
+    transition: 0.5s ease-in-out;
+}
+.contact-page-detail-descripetion{
+    display: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 100%; */
+    /* min-height: 300px; */
+}
+.contact-page-detail-descripetion a{
+    text-decoration: none;
+    display: none;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center; 
+    color: #fff;
+}
+
+
+
+@media (max-width:1150px) {
+    .contact-page-detail-outter {
+        width: 50%;
+        padding: 10px;
+    }
+}
+
+@media (max-width:700px) {
+    .contact-page-detail-outter {
+        width: 100%;
+        padding: 10px;
+    }
+}
